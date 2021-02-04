@@ -10,10 +10,10 @@ from mpl_toolkits.axes_grid1.inset_locator import zoomed_inset_axes, mark_inset
 # parameter setting
 DataDir = "mnist/resnet/"
 
-resultDir1 = DataDir + "regular20"
+resultDir1 = DataDir + "regular16"
 resultDir2 = DataDir + "hartley15"
 resultDir3 = DataDir + "cosine15"
-label1 = 'ResNet20'
+label1 = 'ResNet16'
 label2 = 'DHTSP-ResNet15'
 label3 = 'DCTSP-ResNet15'
 TrainLogName = "TrainLog"

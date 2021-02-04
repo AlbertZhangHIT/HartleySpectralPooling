@@ -126,3 +126,6 @@ dmypy.json
 
 # data
 data/
+
+# result
+result/
