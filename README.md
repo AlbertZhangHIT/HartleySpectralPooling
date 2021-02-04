@@ -22,14 +22,14 @@ The [torch Discrete Cosine Transform](https://github.com/zh217/torch-dct) can be
 
 To reproduce the result on MNIST and Fashion-MNIST dataset, try
 ```
-python mnist_simplenet.py --epochs 10 --pool 'hartley' --run-num 10
-python mnist_resnet.py --epochs 15 --pool 'harltey' --run-num 5
-python fashion_mnist_resnet.py --epochs 15 --pool 'hartley' --run-num 5
+python mnist_simplenet.py --epochs 10 --pool hartley --run-num 10
+python mnist_resnet.py --epochs 15 --pool harltey --run-num 5
+python fashion_mnist_resnet.py --epochs 15 --pool hartley --run-num 5
 ```
 
 To reproduce the result on Cifar10 dataset, try
 ```
-python cifar_resnet.py --epochs 160 --pool 'hartley' --run-num 5
+python cifar_resnet.py --epochs 160 --pool hartley --run-num 5
 ```
 
 # Citation
