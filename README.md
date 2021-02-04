@@ -2,7 +2,7 @@
  
 Python code to reproduce the result of the paper
 
-H. Zhang, J. Ma.[Hartley Spectral Pooling for Deep Learning](https://doc.global-sci.org/uploads/Issue/CSIAM-AM/v1n3/13_518.pdf). CSIAM Trans. Appl. Math., 1 (2020), pp. 518-529. doi: 10.4208/csiam-am.2020-0018.
+H. Zhang, J. Ma. [Hartley Spectral Pooling for Deep Learning](https://doc.global-sci.org/uploads/Issue/CSIAM-AM/v1n3/13_518.pdf). CSIAM Trans. Appl. Math., 1 (2020), pp. 518-529. doi: 10.4208/csiam-am.2020-0018.
 
 # Usage
 To reproduce the result, some packages are required in `Python>=3.6`:
