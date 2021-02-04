@@ -5,7 +5,7 @@ Python code to reproduce the result of the paper
 H. Zhang, J. Ma. [Hartley Spectral Pooling for Deep Learning](https://doc.global-sci.org/uploads/Issue/CSIAM-AM/v1n3/13_518.pdf). CSIAM Trans. Appl. Math., 1 (2020), pp. 518-529. doi: 10.4208/csiam-am.2020-0018.
 
 # Usage
-To reproduce the result, some packages are required in `Python>=3.6`:
+Some packages are required in `Python>=3.6`:
 
 ```
 python>=3.6
@@ -13,10 +13,22 @@ torch>=0.4.1
 torchvision>=0.2
 numpy>=1.14
 scipy>=1.0
-torch-dct
+torch-dct>=0.1
 ```
 The [torch Discrete Cosine Transform](https://github.com/zh217/torch-dct) can be installed using `pip install torch-dct`. 
 
+
+To reproduce the result on MNIST and Fashion-MNIST dataset, try
+```
+python mnist_simplenet.py --epochs 10 --pool 'hartley' --run-num 10
+python mnist_resnet.py --epochs 15 --pool 'harltey' --run-num 5
+python fashion_mnist_resnet.py --epochs 15 --pool 'hartley' --run-num 5
+```
+
+To reproduce the result on Cifar10 dataset, try
+```
+python cifar_resnet.py --epochs 160 --pool 'hartley' --run-num 5
+```
 
 # Citation
 

@@ -44,7 +44,7 @@ if __name__=='__main__':
         # model can be set to anyone that I have defined in models folder
         # note the model should match to the cifar type !
         if args.pool == 'regular':
-            model = resnet20_cifar()
+            model = resnet16_cifar()
         else:
             model = spresnet15_cifar(s_pool=args.pool)
 
